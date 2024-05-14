@@ -1,0 +1,286 @@
+/* styles.css */
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+  }
+  
+
+/* styles.css */
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  .welcome-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #666;
+  }
+  
+  /* Latest Section */
+  .latest-section {
+    padding: 50px;
+  }
+  
+  .latest-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .latest-movies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .movie-card {
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .movie-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  
+  /*movie + game + shows page*/
+
+  /* styles.css */
+
+/* Movies Page */
+main1 {
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .movies-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .moviecard {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-info {
+    margin-bottom: 10px;
+  }
+  
+  .movie-info h3 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .movie-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .movie-info .release-date {
+    font-weight: bold;
+  }
+  
+  .movie-info .genre {
+    color: #666;
+  }
+  
+  .details-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+  
+  .details-button:hover {
+    background-color: #666;
+  }
+  
+
+  /*details for above */
+  .movie-details-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .movie-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .movie-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .movie-info .release-date {
+    font-weight: bold;
+  }
+  
+  .movie-info .genre {
+    color: #666;
+  }
+  
+  .movie-info .director {
+    font-style: italic;
+  }
+  
+  .movie-info .description {
+    line-height: 1.5;
+    font-weight: bold;
+    color: brown;
+  }
+
+  /*feedback*/
+
+  
+.feedback-section {
+    margin-top: 20px;
+  }
+  
+  .feedback-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #333;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #666;
+  }
+
+
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
